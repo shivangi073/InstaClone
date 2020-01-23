@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/instahomepage"
+    tools:context=".InstaHome">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ic_action_search"
+                />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/searchrecycler"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/buttona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IGTV" />
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shop" />
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="architecture" />
+
+        <Button
+            android:id="@+id/buttond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="travel" />
+
+        <Button
+            android:id="@+id/buttone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="food" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>
